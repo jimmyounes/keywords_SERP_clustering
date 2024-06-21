@@ -8,8 +8,8 @@ from bs4 import BeautifulSoup
 from define_functions import * 
 
 
-query="achter une baskete"    
-get_urls_response_keywords(query,"fr","fr")
+keywords=["achter une baskete","chute de cheveux","cheveux lisse","cheveux blanc"]    
+print(get_urls_for_keywords(keywords,"fr","fr"))
 
 
  
